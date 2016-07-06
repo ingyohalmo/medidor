@@ -242,7 +242,7 @@
 		
 			<div class="panel panel-success">
 				<div class="panel-heading">
-					<h3 class="panel-title">Voltaje</h3>
+					<h2 class="panel-title">Voltaje</h2>
 				</div>
 				<div class="panel-body">
 					<div id="chartdiv1" style="width	: 100%; height	: 500px;"></div>
@@ -251,9 +251,9 @@
 		
 		
 		
-			<div class="panel panel-warning">
+			<div class="panel panel-success">
 				<div class="panel-heading">
-					<h3 class="panel-title">Corriente</h3>
+					<h2 class="panel-title">Corriente</h2>
 				</div>
 				<div class="panel-body">
 					<div id="chartdiv2" style="width	: 100%; height	: 500px;"></div>
@@ -262,19 +262,22 @@
 		
 		
 		
-			<div class="panel panel-danger">
+			<div class="panel panel-success">
 				<div class="panel-heading">
-					<h3 class="panel-title">Energia</h3>
+					<h2 class="panel-title">Energia</h2>
 				</div>
 				<div class="panel-body">
 					<div id="chartdiv3" style="width	: 100%; height	: 500px;"></div>
 				</div>
 			</div>
-		
+            
+            <a href="report.php" class="btn btn-success btn-lg btn-block btn-raised">Generar Reporte</a>
+            
+            <a href="email.php" class="btn btn-info btn-lg btn-block btn-raised">Enviar a Correo</a><br>	
 	
 	<div class="panel panel-primary">
 		<div class="panel-heading">
-			<h2 class="panel-title">Tabla de Datos</h2>
+			<h1 class="panel-title">Tabla de Datos</h1>
 		</div>
 		<div class="panel-body">
 			
@@ -298,7 +301,7 @@
 		
 		</div>
 	  </div>
-		
+      	
 	</div>
 
    
