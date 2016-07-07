@@ -70,7 +70,7 @@
                     "id": "g1",
                     "fillAlphas": 0.4,
                     "valueField": "voltaje",
-                    "balloonText": "<div style='margin:5px; font-size:19px;'>voltaje:<b>[[voltaje]]</b></div>"
+                    "balloonText": "<div style='margin:5px; font-size:19px;'>Voltaje: <b>[[voltaje]]V</b></div>"
                 }],
                 "chartScrollbar": {
                     "graph": "g1",
@@ -128,7 +128,7 @@
                     "id": "g1",
                     "fillAlphas": 0.4,
                     "valueField": "corriente",
-                    "balloonText": "<div style='margin:5px; font-size:19px;'>corriente:<b>[[corriente]]</b></div>"
+                    "balloonText": "<div style='margin:5px; font-size:19px;'>Corriente: <b>[[corriente]]A</b></div>"
                 }],
                 "chartScrollbar": {
                     "graph": "g1",
@@ -180,13 +180,13 @@
                 "dataProvider": chartData,
                 "valueAxes": [{
                     "position": "left",
-                    "title": "Energia (J)"
+                    "title": "Energia (KWh)"
                 }],
                 "graphs": [{
                     "id": "g1",
                     "fillAlphas": 0.4,
                     "valueField": "energia",
-                    "balloonText": "<div style='margin:5px; font-size:19px;'>energia:<b>[[energia]]</b></div>"
+                    "balloonText": "<div style='margin:5px; font-size:19px;'>Energia: <b>[[energia]]KWh</b></div>"
                 }],
                 "chartScrollbar": {
                     "graph": "g1",
