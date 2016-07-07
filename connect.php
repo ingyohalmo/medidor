@@ -3,7 +3,7 @@
 	function Connection(){
 		$servidor="localhost";
 		$usuario="root";
-		$password="yohalmo95";
+		$password="contraseña";
 		$baseDatos="ebb";
 
 		try {
