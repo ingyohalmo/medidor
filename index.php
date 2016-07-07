@@ -25,8 +25,6 @@
 		
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<!-- Bootstrap Material Design -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.1/bootstrap-material-design.min.css">
 
    </head>
 <body>
@@ -240,36 +238,28 @@
 	<div class="container"><br>
 	  
 		
-			<div class="panel panel-success">
-				<div class="panel-heading">
+			
 					<h2 class="panel-title">Voltaje</h2>
-				</div>
-				<div class="panel-body">
+				
 					<div id="chartdiv1" style="width	: 100%; height	: 500px;"></div>
-				</div>
-			</div>
+				
 		
 		
-		
-			<div class="panel panel-success">
-				<div class="panel-heading">
+			
 					<h2 class="panel-title">Corriente</h2>
-				</div>
-				<div class="panel-body">
+				
 					<div id="chartdiv2" style="width	: 100%; height	: 500px;"></div>
-				</div>
-			</div>
+				
 		
 		
 		
-			<div class="panel panel-success">
-				<div class="panel-heading">
+			
 					<h2 class="panel-title">Energia</h2>
-				</div>
-				<div class="panel-body">
+				
+				
 					<div id="chartdiv3" style="width	: 100%; height	: 500px;"></div>
-				</div>
-			</div>
+				
+		
             
             <a href="report.php" class="btn btn-success btn-lg btn-block btn-raised">Generar Reporte</a>
             
